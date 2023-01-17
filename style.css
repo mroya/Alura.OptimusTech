@@ -1,0 +1,27 @@
+@import url("styles/cabecalho.css");
+@import url("styles/about.css");
+@import url("styles/banner.css");
+@import url("styles/talentos.css");
+@import url("styles/job.css");
+@import url("styles/brief.css");
+@import url("styles/form.css");
+
+:root {
+    --branco: #FFFFFF;
+    --branco-gelo: #EAECF0;
+    --branco-gelo2: #D0D5DD;
+    --fundo-rodape: #F9FAFB;
+    --vermelho: #8E2424;
+    --vermelho-claro: rgba(142,36,36,0.05);
+    --rosa-claro: #e0cfd9;
+    --azul-escuro: #101828;
+    --cinza-forte: #3A404E;
+    --cinza-medio: #667085;
+    --cinza-claro: #98A2B3;
+}
+
+body {
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: var(--branco);
+}
